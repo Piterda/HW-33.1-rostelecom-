@@ -15,4 +15,4 @@
 
 загрузить Selenium WebDriver
 указать путь к драйверу в файле settings.py
-добавить библиотеки командой pip install -r requirements.txt
+
