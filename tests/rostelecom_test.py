@@ -49,7 +49,7 @@ def test_auth_fake_phone(selenium):
     # вводим телефон и пароль
     form.username.send_keys('+79175862568')
     form.password.send_keys('fkvbkdjghbfj')
-    sleep(25) # на случай появления Captcha, вводим вручную
+    sleep(25) #  вводим вручную
     form.btn_click()
 
     err_mess = form.driver.find_element(By.ID, 'form-error-message')
